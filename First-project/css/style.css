@@ -131,6 +131,17 @@ section{
     /* or 200% */
     color: #FFFF;
 }
+.main-img-container{
+    width: 1150px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-img-container img{
+    border-radius: 15px;
+}
 /* End Main */
 
 
