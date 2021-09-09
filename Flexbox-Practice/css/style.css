@@ -22,62 +22,62 @@
     border: 1px solid red;
     background-color: black;
 }
-.first-box{ /* Done */
+.first-box{ 
     margin-left: 98px;
     margin-top: 90px;
     display: flex;
     align-items: flex-end;
 }
-.first-box div{ /* Done */
+.first-box div{ 
     height: 78px;
     margin: 20px;
 }
-.second-box{ /* Done */
+.second-box{ 
     margin-left: 20px;
     margin-top: 90px;
     display: flex;
     justify-content: center;
 }
-.second-box div{ /* Done */
+.second-box div{ 
     height: 120px;
     margin: 20px;
 }
-.third-box{ /* Done */
+.third-box{ 
     margin-left: 98px;
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: end;
 }
-.third-box div{ /* Done */
+.third-box div{ 
     height: 78px;
     margin: 20px;
 }
-.fourth-box{ /* Done */
+.fourth-box{ 
     margin-top: 20px;
     margin-left: 20px;
     display: flex;
     justify-content: space-between;
 }
-.fourth-box div:nth-child(3){ /* Done */
+.fourth-box div:nth-child(3){ 
     align-self: flex-end;
 }
-.fourth-box div{ /* Done */
+.fourth-box div{ 
     height: 78px;
     margin: 20px;
 }
-.fifth-box{ /* Done */
+.fifth-box{ 
     margin-left: 98px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
-.fifth-box div:nth-child(2){ /* Done */
+.fifth-box div:nth-child(2){ 
     height: 78px;
     display: flex;
     align-self: center;
 }
-.fifth-box div{ /* Done */
+.fifth-box div{ 
     height: 120px;
     margin: 20px;
 }
