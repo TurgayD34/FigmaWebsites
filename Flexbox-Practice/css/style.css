@@ -1,0 +1,111 @@
+#main-box{
+    width: 1152px;
+    height: 700px;
+    margin: 50px;
+    border: 1px solid black;
+    background-color: tomato;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+.box{
+    border: 1px solid black;
+    width: 468px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.box div{ /* Done */
+    width: 78px;
+    border: 1px solid red;
+    background-color: black;
+}
+.first-box{ /* Done */
+    margin-left: 98px;
+    margin-top: 90px;
+    display: flex;
+    align-items: flex-end;
+}
+.first-box div{ /* Done */
+    height: 78px;
+    margin: 20px;
+}
+.second-box{ /* Done */
+    margin-left: 20px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.second-box div{ /* Done */
+    height: 120px;
+    margin: 20px;
+}
+.third-box{ /* Done */
+    margin-left: 98px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.third-box div{ /* Done */
+    height: 78px;
+    margin: 20px;
+}
+.fourth-box{ /* Done */
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.fourth-box div:nth-child(3){ /* Done */
+    align-self: flex-end;
+}
+.fourth-box div{ /* Done */
+    height: 78px;
+    margin: 20px;
+}
+.fifth-box{ /* Done */
+    margin-left: 98px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.fifth-box div:nth-child(2){ /* Done */
+    height: 78px;
+    display: flex;
+    align-self: center;
+}
+.fifth-box div{ /* Done */
+    height: 120px;
+    margin: 20px;
+}
+.sixth-box{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sixth-box div:nth-child(2){
+    display: flex;
+    flex-grow: 2;
+}
+.sixth-box div{
+    height: 78px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
